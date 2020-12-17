@@ -24,8 +24,8 @@ https://docs.google.com/document/d/1VX1qlcQSmtWwMjtDnRWj7ss3-wp-6SQd7j62ZhijUZM/
 * API
 
 # Authors
-Viktoriia Tyshchuk - Designer
-Elena Chechulina - Developer
+* Viktoriia Tyshchuk - Designer
+* Elena Chechulina - Developer
 
 # MIT License
 Copyright (c) 2020 Elena Chechulina & Viktoriia Tyshchuk
