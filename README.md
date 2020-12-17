@@ -15,13 +15,13 @@ You can find design files here:
 https://docs.google.com/document/d/1VX1qlcQSmtWwMjtDnRWj7ss3-wp-6SQd7j62ZhijUZM/edit?usp=sharing
 
 # Built with
-HTML5
-SCSS
-Vue
-AJAX
-PHP
-MySql
-API
+* HTML5
+* SCSS
+* Vue
+* AJAX
+* PHP
+* MySql
+* API
 
 # Authors
 Viktoriia Tyshchuk - Designer
