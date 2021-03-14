@@ -7,21 +7,18 @@ We present to your attention the Roku Flashback app. This application will give 
 Roku Flashback meets all modern requirements for working on various devices. Laptop, tablet, phone, computer screen - the application is adapted for use on all devices. The app has a login system that gives access to an account with content restrictions based on the age of the user. The "parent" account has a function to control the selection of content in the child's account. The archive of films and cartoons is stored in our database.
 
 # Design documents
-You can find design files here:
-https://drive.google.com/drive/folders/1akww6CP8CiFBozWJgn_vwnO6Cbk-VGnh
+You can find here:[design files](https://drive.google.com/drive/folders/1akww6CP8CiFBozWJgn_vwnO6Cbk-VGnh).
 
 # Dev documents
-You can find design files here:
-https://docs.google.com/document/d/1VX1qlcQSmtWwMjtDnRWj7ss3-wp-6SQd7j62ZhijUZM/edit?usp=sharing
+You can find [RoadMap ](https://docs.google.com/document/d/1VX1qlcQSmtWwMjtDnRWj7ss3-wp-6SQd7j62ZhijUZM/edit?usp=sharing) here.
 
 # Built with
 * HTML5
 * SCSS
 * Vue
-* AJAX
-* PHP
+* Node.js
 * MySql
-* API
+* Express
 
 # Authors
 * Viktoriia Tyshchuk - Designer
