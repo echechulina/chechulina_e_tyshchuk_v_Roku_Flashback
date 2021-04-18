@@ -9,6 +9,7 @@ We present to your attention the Roku Flashback app. This application will give 
 Roku Flashback meets all modern requirements for working on various devices. Laptop, tablet, phone, computer screen - the application is adapted for use on all devices. The app has a login system that gives access to an account with content restrictions based on the age of the user. The "parent" account has a function to control the selection of content in the child's account. The archive of films and cartoons is stored in our database.
 
 # Project location 
+
 [Client repo](https://github.com/echechulina/chechulina_e_tyshchuk_v_roku_client)
 
 [Server repo](https://github.com/echechulina/chechulina_e_tyshchuk_v_Roku_Flashback)
@@ -21,6 +22,7 @@ Roku Flashback meets all modern requirements for working on various devices. Lap
 
 # Dev documents
 [Road Map](https://docs.google.com/document/d/1VX1qlcQSmtWwMjtDnRWj7ss3-wp-6SQd7j62ZhijUZM/edit?usp=sharing)
+
 
 # Built with
 * HTML5

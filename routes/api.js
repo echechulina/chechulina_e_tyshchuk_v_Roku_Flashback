@@ -31,9 +31,43 @@ router.get("/movies", (req, res) => {
  
     // Handle error after the release.
     if (error) throw error;
-    res.json({results});
+    res.json(results);
     
   });
+});   
+})
+
+router.get("/tv", (req, res) => {
+  connect.getConnection(function (err,connection) {
+      if (err) throw err; // not connected!
+
+// Use the connection
+connection.query('SELECT * FROM tbl_tv', function (error, results) {
+  // When done with the connection, release it.
+  connection.release();
+
+  // Handle error after the release.
+  if (error) throw error;
+  res.json(results);
+  
+});
+});   
+})
+
+router.get("/music", (req, res) => {
+  connect.getConnection(function (err,connection) {
+      if (err) throw err; // not connected!
+
+// Use the connection
+connection.query('SELECT * FROM tbl_music', function (error, results) {
+  // When done with the connection, release it.
+  connection.release();
+
+  // Handle error after the release.
+  if (error) throw error;
+  res.json(results);
+  
+});
 });   
 })
 
@@ -44,6 +78,30 @@ router.get("/movies", (req, res) => {
 router.get("/movies/:id", (req, res) => {
   // run a SQL query here -> get all movies from my DB
  connect.query(`SELECT * FROM tbl_movies WHERE movies_id=${req.params.id}`, function (error, results, fields) {
+    if (error) throw error;
+    console.log("results:", results, "fields:", fields);
+
+    res.json(results);
+  });
+
+  
+})
+
+router.get("/tv/:id", (req, res) => {
+  // run a SQL query here -> get all movies from my DB
+ connect.query(`SELECT * FROM tbl_tv WHERE tv_id=${req.params.id}`, function (error, results, fields) {
+    if (error) throw error;
+    console.log("results:", results, "fields:", fields);
+
+    res.json(results);
+  });
+
+  
+})
+
+router.get("/music/:id", (req, res) => {
+  // run a SQL query here -> get all movies from my DB
+ connect.query(`SELECT * FROM tbl_music WHERE music_id=${req.params.id}`, function (error, results, fields) {
     if (error) throw error;
     console.log("results:", results, "fields:", fields);
 
