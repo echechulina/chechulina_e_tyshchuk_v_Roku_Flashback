@@ -1,4 +1,4 @@
-![Image alt](https://github.com/echechulina/chechulina_e_tyshchuk_v_Roku_Flashback/blob/main/images/roku.png)
+![Image alt](https://github.com/echechulina/chechulina_e_tyshchuk_v_Roku_Flashback/blob/main/images/mobile%20assets/logo_adults.svg)
 
 # Roku Flashback Streaming App
 
